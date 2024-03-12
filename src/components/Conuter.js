@@ -14,15 +14,12 @@ const HandleDecreament=()=>{
     let actionObj=decreament();
     dispatch(actionObj);
 }
-const HandleClear=()=>{
-    let actionObj=clear();
-    dispatch(actionObj);
-}
+
   return (
     <>
         <h1>Count Is: {count}</h1>
         <button onClick={HandleIncreament}>INCREAMENT</button>
-        <button onClick={HandleClear}>CLEAR</button>
+    
         <button onClick={HandleDecreament}>DECREAMENT</button>
     </>
   )
