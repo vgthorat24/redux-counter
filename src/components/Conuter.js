@@ -18,10 +18,14 @@ const HandleClear=()=>{
     let actionObj=clear();
     dispatch(actionObj);
 }
+const HandleIncreamentBy=()=>{
+  console.log("Handle increament by 10");
+}
   return (
     <>
         <h1>Count Is: {count}</h1>
         <button onClick={HandleIncreament}>INCREAMENT</button>
+        <button onClick={HandleIncreamentBy}>INCREAMENTBY10</button>
         <button onClick={HandleClear}>CLEAR</button>
         <button onClick={HandleDecreament}>DECREAMENT</button>
     </>
