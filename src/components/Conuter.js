@@ -21,6 +21,7 @@ const HandleClear=()=>{
 const HandleIncreamentBy=()=>{
   console.log("Handle increament by 10");
 }
+
   return (
     <>
         <h1>Count Is: {count}</h1>
